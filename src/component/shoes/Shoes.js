@@ -11,7 +11,6 @@ const Shoes = () => {
         .then(data =>setProducts(data))
     },[])
     const addToCard = (product)=>{
-        console.log(product)
         const newCard = [...card, product]
         setCard(newCard)
     }
