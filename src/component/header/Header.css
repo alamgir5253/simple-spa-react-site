@@ -1,0 +1,27 @@
+.header-bg{
+    background: #1C2B35;
+}
+.nav-style{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    height: 80px;
+}
+.nav-style img{
+    width: 100px;
+}
+.nav-style ul li{
+    display: inline-block;
+    margin-left: 20px;
+
+
+}
+.nav-style ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: color .3s;
+}
+.nav-style ul li a:hover{
+    color: #ff9900;
+}
